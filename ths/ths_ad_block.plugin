@@ -9,7 +9,7 @@ hostname = *.10jqka.com.cn, *.hexin.cn
 
 [Script]
 # Unified ad interception - dispatched by single script based on URL
-http-response ^https?:\/\/(adm|stat|ad|ads|dsp|adapi)\.10jqka\.com\.cn\/.* script-path=https://raw.githubusercontent.com/quentinjwhu/ad-block-scripts/main/ths/ths_ad_block.js, requires-body=true, tag=Tonghuashun-Ad-Block
+http-response ^https?://(adm|stat|ad|ads|dsp|adapi).10jqka.com.cn/.* script-path=https://raw.githubusercontent.com/quentinjwhu/ad-block-scripts/main/ths/ths_ad_block.js, requires-body=true, tag=Tonghuashun-Ad-Block, img-url=https://raw.githubusercontent.com/quentinjwhu/ad-block-scripts/main/ths/icon.png
 
 # Analytics tracking - rejected at request stage
-http-request ^https?:\/\/stat\.10jqka\.com\.cn\/(?!.*kaiping).* script-path=https://raw.githubusercontent.com/quentinjwhu/ad-block-scripts/main/ths/ths_stat_block.js, tag=Tonghuashun-Stat-Block
+http-request ^https?://stat.10jqka.com.cn/(?!.kaiping). script-path=https://raw.githubusercontent.com/quentinjwhu/ad-block-scripts/main/ths/ths_stat_block.js, tag=Tonghuashun-Stat-Block, img-url=https://raw.githubusercontent.com/quentinjwhu/ad-block-scripts/main/ths/icon.png
