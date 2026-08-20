@@ -1,3 +1,7 @@
+#!name=Tonghuashun Ad Blocker
+#!desc=Remove the ths ads
+#!icon=https://raw.githubusercontent.com/quentinjwhu/ad-block-scripts/main/ths/icon.png
+
 [General]
 name = Tonghuashun Ad Blocker
 desc = Unified JS script to block splash ads, in-feed ads, and analytics tracking for Tonghuashun App
