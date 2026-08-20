@@ -1,5 +1,6 @@
 #!name=Tonghuashun Ad Blocker
-#!desc=Remove the ths ads#!icon=https://cdn.jsdelivr.net/gh/quentinjwhu/ad-block-scripts@main/ths/icon.png
+#!desc=Remove the ths ads
+#!icon=https://cdn.jsdelivr.net/gh/quentinjwhu/ad-block-scripts@main/ths/icon.png
 
 [General]
 name = Tonghuashun Ad Blocker
