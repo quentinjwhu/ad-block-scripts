@@ -1,6 +1,5 @@
 #!name=Tonghuashun Ad Blocker
-#!desc=Remove the ths ads
-#!icon=https://cdn.phototourl.com/free/2026-08-20-6ddc003b-49f2-4b09-984c-7a73ce66d3c8.png
+#!desc=Remove the ths ads#!icon=https://cdn.jsdelivr.net/gh/quentinjwhu/ad-block-scripts@main/ths/icon.png
 
 [General]
 name = Tonghuashun Ad Blocker
